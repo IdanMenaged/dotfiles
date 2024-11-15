@@ -1,0 +1,9 @@
+[Default Applications]
+x-scheme-handler/mailto=userapp-Thunderbird-DV5AX2.desktop
+message/rfc822=userapp-Thunderbird-DV5AX2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-DV5AX2.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Thunderbird-DV5AX2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-DV5AX2.desktop;
