@@ -1,7 +1,7 @@
 autologin.saved_credentials="{\"idanmenaged\":[\"idanmenaged\",\"+xZBrW8/SL+T9EpExwdOqw2zI6FAvsjWmVu0CXXYnCvWaCcADDNe4kocL6SaFeMbvdWgBsi+I5RjTiLfVvfRBuIjqrjVX05AyJmIygXlPQiA7ry9weUMmJa7raL9VpDKpg+IwH3Hz/OxEWQfsWHWGNtEyfwTNPJJLCkU4jKcIUpHcPEa1jLmFzm7aJa1bgK54mA+3wlhO2SCaozAU+ZLtzj1b6Kb9XThVcixDGG96v8S5xGqHWoO1sQonJ8AszMU/LzQVbCmmOTYosrDN8eLKu+gXaDfStjA4tljvxpPoQY=\"]}"
 autologin.blob="+xZBrW8/SL+T9EpExwdOqw2zI6FAvsjWmVu0CXXYnCvWaCcADDNe4kocL6SaFeMbvdWgBsi+I5RjTiLfVvfRBuIjqrjVX05AyJmIygXlPQiA7ry9weUMmJa7raL9VpDKpg+IwH3Hz/OxEWQfsWHWGNtEyfwTNPJJLCkU4jKcIUpHcPEa1jLmFzm7aJa1bgK54mA+3wlhO2SCaozAU+ZLtzj1b6Kb9XThVcixDGG96v8S5xGqHWoO1sQonJ8AszMU/LzQVbCmmOTYosrDN8eLKu+gXaDfStjA4tljvxpPoQY="
 es.send-on-startup=true
-core.clock_delta=0
+core.clock_delta=-1
 autologin.username="idanmenaged"
 storage.last-location="/home/idanm/.cache/spotify/Storage"
 app.enable-developer-mode=true

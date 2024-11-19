@@ -18,3 +18,20 @@ yay/
 .config/ibus/*-unix-*
 *.lock
 .config/StardewValley/Saves/
+.config/StardewValley/ErrorLogs/
+.config/Google/AndroidStudio*/
+.cofig/jetbrains/
+.config/spotify/Users/
+.android/
+*.bak
+.config/Android Open Source Project/
+.config/qBittorrent/
+*auth_token*
+.grade/
+.java/
+.pki/
+.steam/
+.thunderbird/
+.viminfo
+*backup
+Photoshop/
