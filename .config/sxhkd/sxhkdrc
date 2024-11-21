@@ -12,3 +12,6 @@ super + a
 
 super + {Left, Up, Down, Right}
 	bspc node -f {west,north,south,east}
+
+ctrl + F12
+	gm import -window root ~/Pictures/screenshot.jpg
