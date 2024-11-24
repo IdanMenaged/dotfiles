@@ -20,3 +20,6 @@ XMODIFIERS=@im=ibus
 GTK_IM_MODULE=ibus
 QT_IM_MODULE=ibus
 XMODIFIERS=@im=ibus
+
+# aliases
+alias update="sudo pacman -Syu && yay -Syu"
