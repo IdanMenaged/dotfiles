@@ -2,7 +2,7 @@
 
 xsetroot -cursor_name xcapy
 sxhkd &
-bash ~/.config/polybar/launch.sh --hack &
+bash ~/.config/polybar/launch.sh --cuts &
 dunst &
 ibus-daemon -rxRd &
 
