@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/home/idanm/.config/wallpaper.png' 
+feh --no-fehbg --bg-scale '/home/idanm/.config/wallpaper.png' 
