@@ -13,11 +13,13 @@ Downloads/
 FiraxisLive/
 Pictures/
 Videos/
+dotfiles/
 polybar-themes/
 xcapy/
 xero.jpeg
 yay/
 .config/ibus/*-unix-*
+.config/ibus/bus/*-unix-*
 *.lock
 .config/StardewValley/Saves/
 .config/StardewValley/ErrorLogs/
@@ -37,3 +39,13 @@ yay/
 .viminfo
 *backup
 Photoshop/
+.config/go/telemetry/
+.config/pulse/*-runtime
+.gitconfig
+.config/JetBrains/
+*.old
+*.old/
+.config/gh/
+go/
+.steampath
+.steampid
