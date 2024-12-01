@@ -44,7 +44,9 @@ else
         :
     done
     # Remove workspaces
-    bspc desktop -r V VI VII VIII
+    bspc desktop -r 6 7 8 9 10
     # Remove monitor
     bspc monitor HDMI1 -r
+    # redefine first monitor
+    bspc monitor eDP-1 -d 1 2 3 4 5 6 7 8 9 10
 fi
