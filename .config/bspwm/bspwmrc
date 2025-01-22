@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# sources
+source ~/.bash_aliases
+
 xsetroot -cursor_name xcapy
 sxhkd &
 bash ~/.config/polybar/launch.sh --cuts &
@@ -20,32 +23,8 @@ bspc config automatic_scheme longest_side
 feh --bg-scale ~/.config/wallpaper.png
 
 # virtual desktops
-#bspc monitor -d 1 2 3 4 5 6 7 8 9 10
+bspc monitor -d 1 2 3 4 5
 
-bspc monitor eDP-1 -d 1 2 3 4 5
-#bspc monitor HDMI-1 -d 6 7 8 9 10
-# Second monitor
-if [[ $(xrandr -q | grep 'HDMI-1 connected') ]]; then
-    xrandr --output eDP-1 --rotate normal --output HDMI-1 --primary --mode 1920x1080 --rotate normal --right-of eDP-1
-    # Workspaces
-    bspc monitor HDMI-1 -d 6 7 8 9 10
-else
-    xrandr --output HDMI-1 --off
-    # Remove nodes
-    while bspc node @V: --kill; do
-        :
-    done
-    while bspc node @VI: --kill; do
-        :
-    done
-    while bspc node @VII: --kill; do
-        :
-    done
-    while bspc node @VIII: --kill; do
-        :
-    done
-    # Remove workspaces
-    bspc desktop -r 6 7 8 9 10
-    # Remove monitor
-    bspc monitor HDMI-1 -r
-fi
+# duplicate screen
+xrandr --output HDMI-1 --same-as eDP-1 --auto --scale-from 1920x1200
+#bspc monitor eDP-1 -d 1 2 3 4 5
